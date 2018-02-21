@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon price tracker</title>
+        <meta charset="utf-8">
+        <script src="track.js" defer></script>
+    </head>
+    <body>
+        <div>
+            Select Country
+            <input type="radio" id="ca" name="country" value="CA"> CA<br>
+            <input type="radio" id="us" name="country" value="US"> US<br>
+            <input type="radio" id="uk" name="country" value="UK"> UK<br>
+            Put in a amazon asin below. Click the save button.
+            <br>
+            <input type="text" id="asin" maxlength="100"><br>
+            <input type="text" id="price" maxlength="100"><br>
+            <input type="text" id="pb_token" maxlength="100"><br>
+            <input type="button" value="Save" onclick="save()">
+        </div>
+    </body>
+</html>
